@@ -1,0 +1,2114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dribble-Discover the world’s Top Designers and Creative professional</title>
+  <link rel="icon" type="image/x-icon" href="assets/last logo.svg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+
+  .nav-link {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 12px;
+  }
+
+  .nav-link:hover {
+    text-decoration: none;
+  }
+
+  /* ((((((((((((caption style)))))))))))) */
+  .image {
+    position: relative;
+    /* width: 50%; */
+  }
+
+  .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+ }
+
+ .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+ }
+
+ /* .container:hover .image {
+  opacity: 0.3;
+ } */
+
+ .gallary:hover .middle {
+  opacity: 1;
+ }
+
+ .text {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  /* padding: 16px 32px; */
+  margin-top: 170px;
+ }
+
+ /* span button */
+ .span {
+  font-weight: bold;
+  color: black;
+ }
+
+  /* (((((((((((sign up button))))))))))) */
+  .btn1 {
+    color: #fff;
+    background-color: #EA4C89;
+    border-color: #EA4C89;
+    border-radius: 8px;
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .d-flex {
+    margin-left: 900px;
+  }
+
+  /* ((((((popular and fillter button)))))) */
+  .btn {
+    color: gray;
+    background-color: #fff;
+    border-color: gray;
+    height: 40px;
+  }
+
+  .btn:hover {
+  
+    background-color: #fff;
+    border-color: #EA4C89;
+    color: gray;
+    border-width: 2px;
+  }
+
+ /* ((((((((pro and team button styling)))))) */
+  .btn2 {
+    height: 15px;
+    margin-top: 5px;
+    background-color: #cccccc;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .btn2:hover {
+    background-color: #EA4C89;
+  }
+
+  /* (((((((sign up to continue button))))))) */
+  .btn3 {
+    background-color: #EA4C89;
+    color: #fff;
+    border: 0px;
+    border-radius: 7px;
+    height: 40px;
+    width: 280px;
+  }
+
+  .btn3:hover {
+    background-color: #ec6a9c;
+  }
+
+
+  /* (((((((social media icons of footer))))))))) */
+  .fa {
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+ }
+
+ .fa:hover {
+    opacity: 0.7;
+    color: #6e6d7a;
+    text-decoration: none;
+ }
+
+ .fa-dribbble {
+  background: #fff;
+  color: #3d3d4e;
+ }
+
+ .fa-twitter {
+  background: #fff;
+  color: #3d3d4e;
+ }
+
+ .fa-facebook {
+  background: #fff;
+  color:#3d3d4e ;
+ }
+
+ .fa-instagram {
+  background: #fff;
+  color: #3d3d4e;
+ }
+
+ .fa-pinterest {
+  background: #fff;
+  color: #3d3d4e;
+ }
+
+ /* ((((((((text and buttons on the image)))))))) */
+ .container-mt {
+  position: relative;
+  text-align: center;
+  color: white;
+ }
+
+ .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ .heading {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .paragraph {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+ }
+
+ .top {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+ }
+
+
+ /* ((((((((top round buttons))))))))  */
+ .btn-primary1 {
+  background-color: #00000080;
+  border: 0;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* height: 50px; */
+  padding: 16px 20px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 20px;
+ }
+
+ .btn-primary1:hover {
+  background-color: #fff;
+  color: black;
+ }
+
+
+ /* ((((((discover top active button))))))) */
+ .btn-primary2 {
+  background-color: #fff;
+  color: black;
+  border: 0;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 16px 20px;
+  font-weight: bold;
+  line-height: 20px;
+ }
+
+ /*(((((((( bottom  buttons))))))))*/
+ .bottom {
+  position: absolute;
+  bottom: 90px;
+  left: 150px;
+  right: 150px;
+ }
+
+ .btn-primary3 {
+  background-color: transparent;
+  border-radius: 20px;
+  border-color: #fff;
+  border: 1.5px solid #fff;
+  color: #fff;
+  padding: 5px 20px;
+  font-weight: 450;
+ }
+
+ /*(((((((((((((((((( botton word @ )))))))))))))))))) */
+ .bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #ffffff;
+ }
+  .bottom-right:hover {
+    text-decoration: none;
+    color: #6e6d7a;
+  }
+
+ /* (((((((search bar styling ))))))))*/
+ .searchbar {
+  border: 0px;
+  border-radius: 30px;
+  width: 600px;
+  height: 60px;
+ }
+
+ .searchimg {
+  border-radius: 20px;
+  height: 40px;
+ }
+
+ /* ((((((((heart and eye img))))))) */
+ .socialicon {
+  float: right;
+ }
+
+ .glyphicon:hover {
+  color: #EA4C89;
+ }
+
+ .glyphicon {
+  color: #6e6d7a;
+ }
+
+ /* .col-lg-4:hover {
+  color: #cccccc;
+ } */
+
+
+ /* (((((((((((((((((((((((((((((((((((((media query size)))))))))))))))))))))))))))))))))))))) */
+ @media (min-width:320px) and (max-width:480px){
+  .navbar-toggler-icon {
+    margin-right: -135px;
+  }
+
+  .d-flex {
+    margin-left: 0px;
+  }
+  /* ((((((text and buttons on the image))))) */
+ .container-mt {
+  position: relative;
+  text-align: center;
+  color: white;
+ }
+
+ .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ .heading {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .paragraph {
+  font-size: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+ }
+
+ .top {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+ }
+
+ /* (((((((((top round buttons)))))))))  */
+ .btn-primary1 {
+  background-color: #00000080;
+  border: 0;
+  border-radius: 18px;
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 5px;
+  color: #fff;
+  font-weight: 700;
+  /* line-height: 20px; */
+  height: 8px;
+  padding-bottom: 20px;
+ }
+
+ .btn-primary1:hover {
+  background-color: #fff;
+  color: black;
+ }
+
+ /* ((((((discover top active button)))))) */
+ .btn-primary2 {
+  background-color: #fff;
+  color: black;
+  border: 0;
+  border-radius: 18px;
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 5px;
+  font-weight: bold;
+  /* line-height: 20px; */
+ }
+
+ /*(((((((( bottom  buttons)))))))*/
+ .bottom {
+  position: absolute;
+  bottom: 7px;
+  left: 10px;
+  right: 50px;
+ }
+
+ .btn-primary3 {
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: #fff;
+  border: 1.5px solid #fff;
+  color: #fff;
+  padding: 0px 3px;
+  font-weight: 450;
+  font-size: 7px;
+ }
+
+ .tsbtn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 7px;
+ }
+
+ /* ((((((((search bar styling )))))))*/
+ .searchbar {
+  border: 0px;
+  border-radius: 30px;
+  width: 180px;
+  height: 20px;
+ }
+
+ .searchimg {
+  border-radius: 10px;
+  height: 10px;
+ }
+
+ /*(((((((((((((((((( botton word @ )))))))))))))))))) */
+ .bottom-right {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  color: #ffffff;
+  font-size: 10px;
+ }
+
+
+  /* ((((((((((((caption style)))))))))))) */
+ .text {
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  /* padding: 16px 32px; */
+  margin-top: 80px;
+ }
+
+ .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+ }
+
+ }
+
+ /* (((((((((((((((((((((((((((((((((((((media query size)))))))))))))))))))))))))))))))))))))) */
+ @media (min-width:425px) and (max-width:666px){
+  .navbar-toggler-icon {
+    margin-right: -210px;
+  }
+
+  .d-flex {
+    margin-left: 0px;
+  }
+
+  /* (((((text and buttons on the image))))) */
+ .container-mt {
+  position: relative;
+  text-align: center;
+  color: white;
+ }
+
+ .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ .heading {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .paragraph {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+ }
+
+ .top {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+ }
+
+ /* (((((top round buttons)))))  */
+ .btn-primary1 {
+  background-color: #00000080;
+  border: 0;
+  border-radius: 20px;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 10px;
+  color: #fff;
+  font-weight: 700;
+  /* line-height: 20px; */
+  height: 10px;
+  padding-bottom: 30px;
+ }
+
+ .btn-primary1:hover {
+  background-color: #fff;
+  color: black;
+ }
+
+ /* ((((discover top active button))))) */
+ .btn-primary2 {
+  background-color: #fff;
+  color: black;
+  border: 0;
+  border-radius: 20px;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 12px 11px;
+  font-weight: bold;
+  /* line-height: 20px; */
+ }
+
+ /*((((( bottom  buttons)))))*/
+ .bottom {
+  position: absolute;
+  bottom: 45px;
+  left: 20px;
+  right: 50px;
+ }
+
+ .btn-primary3 {
+  background-color: transparent;
+  border-radius: 15px;
+  border-color: #fff;
+  border: 1.5px solid #fff;
+  color: #fff;
+  padding: 0px 5px;
+  font-weight: 450;
+  font-size: 9px;
+ }
+
+ .tsbtn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 9px;
+ }
+
+ /* (((((((search bar styling )))))))*/
+ .searchbar {
+  border: 0px;
+  border-radius: 30px;
+  width: 280px;
+  height: 50px;
+ }
+
+ .searchimg {
+  border-radius: 10px;
+  height: 10px;
+ }
+
+ }
+
+  /* (((((((((((((((((((((((((((((((((((((media query size)))))))))))))))))))))))))))))))))))))) */
+ @media (min-width:768px) and (max-width:991px){
+  .navbar-toggler-icon {
+    margin-right: -15px;
+  }
+
+  .d-flex {
+    margin-left: 10px;
+    margin-top: 250px;
+  }
+
+  /* ((((((discover top active button)))))) */
+ .btn-primary2 {
+  background-color: #fff;
+  color: black;
+  border: 0;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 18px 21px;
+  font-weight: bold;
+  line-height: 20px;
+ }
+
+ /*(((((( bottom  buttons)))))))*/
+ .bottom {
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  right: 20px;
+ }
+
+ .btn-primary3 {
+  background-color: transparent;
+  border-radius: 20px;
+  border-color: #fff;
+  border: 1.5px solid #fff;
+  color: #fff;
+  padding: 5px 20px;
+  font-weight: 450;
+ }
+
+   /* ((((((((((((caption style)))))))))))) */
+ .text {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  /* padding: 16px 32px; */
+  margin-top: 400px;
+ }
+
+ .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+ }
+
+
+ }
+
+</style>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-white bg-light" style="padding: 10px 5px 5px 5px;">
+    <div class="container-fluid" style="margin-bottom: -10px;">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo 1.png" height="18px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inspiration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Find Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Learn More</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Go Pro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hire Designers</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <a href="#">
+            <img src="assets/search img.png" style="height: 20px; margin-top: 20px;">
+          </a>
+
+          <a href="#" style="color: gray; text-decoration: none; margin-right: 20px; margin-top: 20px;">Sign-in</a>
+
+          <button class="btn1 btn-primary" type="button">Sign-up</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 1st video area }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+  <div class="container-mt">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+        <video autoplay muted loop class="video" width="100%" height="auto">
+          <source src="assets/1 video.mp4">
+        </video>
+        <!--{{{{{{{{{{{{{{ top round buttons }}}}}}}}}}}}}}}-->
+        <div class="top" style="padding-top: 60px; padding-left: 60px;">
+          <a href="#"><input type="button" class="btn-primary2" value="Discover"></a>  
+          <a href="#"><input type="button" class="btn-primary1" value="Animation"></a> 
+          <a href="#"><input type="button" class="btn-primary1" value="Branding"></a> 
+          <a href="#"><input type="button" class="btn-primary1" value="Illustration"></a>  
+          <a href="#"><input type="button" class="btn-primary1" value="Mobile"></a>  
+          <a href="#"><input type="button" class="btn-primary1" value="Print"></a>  
+          <a href="#"><input type="button" class="btn-primary1" value="Product Design"></a>  
+          <a href="#"><input type="button" class="btn-primary1" value="Typography"></a> 
+          <a href="#"><input type="button" class="btn-primary1" value="Web Design"></a>
+        </div>
+
+        <div class="centered">
+          <h1 class="heading">Explore the world’s leading design portfolios</h1>
+          <p class="paragraph">Millions of designers and agencies around the world showcase their portfolio work on Dribbble - the home to the world’s best design and creative professionals.</p>
+          <a href="#">
+            <!-- <img class="searchimg" src="D:\dribble\search img.png" height="20px"> -->
+            <input  type="text" class="searchbar" placeholder=" Search......">
+          </a>
+        </div>
+
+        <div class="bottom">
+          <a href="#"  class="tsbtn" style="color: #fff; text-decoration: none;">Trending searches</a>
+          <a href="#"><input type="button" class="btn-primary3" value="landing page"></a>
+          <a href="#"><input type="button" class="btn-primary3" value="ios"></a>
+          <a href="#"><input type="button" class="btn-primary3" value="food"></a>
+          <a href="#"><input type="button" class="btn-primary3" value="landingpage"></a>
+          <a href="#"><input type="button" class="btn-primary3" value="uxdesign"></a>
+          <a href="#"><input type="button" class="btn-primary3" value="app design"></a>
+        </div>
+
+        <a href="#" class="bottom-right">@glebich</a>
+
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 2 buttons }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+  <div class="container" style="margin-top: 10px; margin-bottom: 30px;">
+    <div class="row">
+      <div class="col-lg-12 col-md 12 col-sm-12 col-12">
+        <a  href="#" class="btn btn-primary btn-lg dropdown-toggle" data-bs-toggle="dropdown">Popular</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#" style="color: #EA4C89;">Popular</a></li>
+          <li><a class="dropdown-item" href="#">New & Noteworthy</a></li>
+          <li><a class="dropdown-item" href="#">Marketplace</a></li>
+       </ul> 
+        <a  href="#" class="btn btn-primary btn-lg dropdown-toggle" data-bs-toggle="dropdown" style="float: right;">Filters</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Tags</a></li>
+          <li><a class="dropdown-item" href="#">Color</a></li>
+          <li><a class="dropdown-item" href="#">Timeframe</a></li>
+          <li><a class="dropdown-item" href="#">Downloads</a></li>
+       </ul> 
+      </div>
+    </div>
+  </div>
+
+  <!--{{{{{{{{{{{{ images row }}}}}}}}}}}}}}}-->
+  <div class="container">
+    <div class="row">
+      <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 1 st row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/1.webp" width="100%" class="image"></a>
+        <div>
+          <img src="assets/s1.webp" style="border-radius: 20px;"> <span class="span">Peter Voter</span>
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 30
+              <span class="glyphicon glyphicon-eye-open"></span> 6.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Damn Good
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/2.webp" width="100%"></a>
+        <div>
+          <img src="assets/s2.webp" style="border-radius: 20px;"> <span class="span">Hypebet</span>
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 230
+              <span class="glyphicon glyphicon-eye-open"></span> 10.2k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Hypebet...
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/3.webp" width="100%"></a>
+        <div>
+          <img src="assets/s3.webp" style="border-radius: 20px;"> <span class="span">We Transfer</span>
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 340
+              <span class="glyphicon glyphicon-eye-open"></span> 6.17k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Creative Content
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 2 nd row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/4.webp" width="100%"></a>
+        <div>
+          <img src="assets/s4.webp" style="border-radius: 20px;"> <span class="span">Vineyard </span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 560
+              <span class="glyphicon glyphicon-eye-open"></span> 5.1k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Comfort Of Home
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/5.webp" width="100%"></a>
+        <div>
+          <img src="assets/s5.webp" style="border-radius: 20px;"> <span class="span"> Trading </span>
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 360
+              <span class="glyphicon glyphicon-eye-open"></span> 6k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Start Your Free Trial
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/6.webp" width="100%"></a>
+        <div>
+          <img src="assets/s6.webp" style="border-radius: 20px;"> <span class="span">Fitness Camp</span>
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 330
+              <span class="glyphicon glyphicon-eye-open"></span> 7.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Look Better
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 3 rd row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+          <a href="#"><img src="assets/7.webp" width="100%"></a>
+          <div>
+          <img src="assets/s7.webp" style="border-radius: 20px;"><span class="span">health Karma </span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 200
+              <span class="glyphicon glyphicon-eye-open"></span> 7.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">New Health Karma..
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class=" gallary col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/8.webp" width="100%"></a>
+        <div>
+          <img src="assets/s8.webp" style="border-radius: 20px;"> <span class="span">Pocket Assistant </span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 700
+              <span class="glyphicon glyphicon-eye-open"></span> 3.37k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Try Some New..
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#">
+          <video autoplay muted loop width="100%">
+            <source src="assets/9.mp4">
+          </video>
+        </a>
+        <div>
+          <img src="assets/s9.webp" style="border-radius: 20px;"> <span class="span">Lucid Air</span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 360
+              <span class="glyphicon glyphicon-eye-open"></span> 6.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">OKTA Branding..
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 4 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/10.webp" width="100%"></a>
+        <div>
+          <img src="assets/s10.webp" style="border-radius: 20px;"> <span class="span">Let's Talk</span>
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 530
+              <span class="glyphicon glyphicon-eye-open"></span> 5.9k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">3D Print.....
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/11.webp" width="100%"></a>
+        <div>
+          <img src="assets/s11.webp" style="border-radius: 20px;"> <span class="span">Gaming</span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 350
+              <span class="glyphicon glyphicon-eye-open"></span> 4.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Games Mode On....
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/12.webp" width="100%"></a>
+        <div>
+          <img src="assets/s12.webp" style="border-radius: 20px;"> <span class="span"> Loan Plans </span>
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 700
+              <span class="glyphicon glyphicon-eye-open"></span> 1.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">We Have Best P...
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 5 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/13.webp" width="100%"></a>
+        <div>
+          <img src="assets/s13.webp" style="border-radius: 20px;"> <span class="span">Let's Talk</span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 870
+              <span class="glyphicon glyphicon-eye-open"></span> 9.3k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Nickilfox....
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/14.webp" width="100%"></a>
+        <div>
+          <img src="assets/s14.webp" style="border-radius: 20px;"> <span class="span">Phren </span>
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 307
+              <span class="glyphicon glyphicon-eye-open"></span> 10.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">The New Art..
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/15.webp" width="100%"></a>
+        <div>
+          <img src="assets/s15.webp" style="border-radius: 20px;"><span class="span">Visual Art Agency </span>
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 630
+              <span class="glyphicon glyphicon-eye-open"></span> 6.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Good Vibes Comes
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 6 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/16.webp" width="100%"></a>
+        <div>
+          <img src="assets/s16.webp" style="border-radius: 20px;"><span class="span">Mychal Wilson</span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 30
+              <span class="glyphicon glyphicon-eye-open"></span> 1k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Mychal Wilson
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/17.webp" width="100%"></a>
+        <div>
+          <img src="assets/s17.webp" style="border-radius: 20px;"> <span class="span">Mung Minataurs</span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 390
+              <span class="glyphicon glyphicon-eye-open"></span> 4.1k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Shop your Favo...
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/18.webp" width="100%"></a>
+        <div>
+          <img src="assets/s18.webp" style="border-radius: 20px;"> <span class="span">Sneakers Lovers</span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 730
+              <span class="glyphicon glyphicon-eye-open"></span> 7.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Look collection.
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 7 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#">
+          <video autoplay muted loop width="100%">
+            <source src="assets/19.mp4">
+          </video>
+        </a>
+        <div>
+          <img src="assets/s25.webp" style="border-radius: 20px;"><span class="span"> Squarespace </span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 100
+              <span class="glyphicon glyphicon-eye-open"></span> 5.4k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Wander Branding
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/20.webp" width="100%"></a>
+        <div>
+          <img src="assets/s20.webp" style="border-radius: 20px;"> <span class="span">Kodex</span> 
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 83
+              <span class="glyphicon glyphicon-eye-open"></span> 6.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Kodex.....
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/21.webp" width="100%"></a>
+        <div>
+          <img src="assets/s21.webp" style="border-radius: 20px;"> <span class="span">Pitch</span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 60
+              <span class="glyphicon glyphicon-eye-open"></span> 9.3k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Concept for Pitch
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 8 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/22.webp" width="100%"></a>
+        <div>
+          <img src="assets/s22.webp" style="border-radius: 20px;"> <span class="span"> Octopus </span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 360
+              <span class="glyphicon glyphicon-eye-open"></span> 8.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Octopus stuff
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/23.webp" width="100%"></a>
+        <div>
+          <img src="assets/s23.webp" style="border-radius: 20px;"> <span class="span">Open Al </span>
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 39
+              <span class="glyphicon glyphicon-eye-open"></span> 6.5k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Open AI......
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/24.webp" width="100%"></a>
+        <div>
+          <img src="assets/s24.webp" style="border-radius: 20px;"> <span class="span">Analytics Overview </span>
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 500
+              <span class="glyphicon glyphicon-eye-open"></span> 4.4k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Analytics Payment..
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 9 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/25.webp" width="100%"></a>
+        <div>
+          <img src="assets/s25.webp" style="border-radius: 20px;"> <span class="span"> Finetech</span>
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 30
+              <span class="glyphicon glyphicon-eye-open"></span> 7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Sway Fianance
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/26.webp" width="100%"></a>
+        <div>
+          <img src="assets/s26.webp" style="border-radius: 20px;"> <span class="span">SAS</span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 250
+              <span class="glyphicon glyphicon-eye-open"></span> 6k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Book Tickets Now
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/27.webp" width="100%"></a>
+        <div>
+          <img src="assets/s27.webp" style="border-radius: 20px;"> <span class="span"> New Additions </span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 340
+              <span class="glyphicon glyphicon-eye-open"></span> 1.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">New Addition logo.
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+    
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 10 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#">
+          <video autoplay muted loop width="100%">
+            <source src="assets/28.mov">
+          </video>
+        </a>
+        <div>
+          <img src="assets/s28.webp" style="border-radius: 20px;"> <span class="span">Donation Profile</span> 
+          <button class="btn2" type="button">TEAM</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 440
+              <span class="glyphicon glyphicon-eye-open"></span> 9k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Donation Goals..
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/29.webp" width="100%"></a>
+        <div>
+          <img src="assets/s29.webp" style="border-radius: 20px;"> <span class="span"> Advance Alphabet</span>  
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 306
+              <span class="glyphicon glyphicon-eye-open"></span> 7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Everything will..
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/30.webp" width="100%"></a>
+        <div>
+          <img src="assets/s30.webp" style="border-radius: 20px;"> <span class="span"> Link </span>
+          <button class="btn2" type="button">PRO</button>
+
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 901
+              <span class="glyphicon glyphicon-eye-open"></span> 8k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Links of L
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 11 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/31.webp" width="100%"></a>
+        <div>
+          <img src="assets/s31.webp" style="border-radius: 20px;"> <span class="span">Developers</span>
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 370
+              <span class="glyphicon glyphicon-eye-open"></span> 6k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Encryption for D..
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/32.webp" width="100%"></a>
+        <div>
+          <img src="assets/s32.webp" style="border-radius: 20px;"> <span class="span"> Arrows </span>
+          <button class="btn2" type="button">PRO</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 800
+              <span class="glyphicon glyphicon-eye-open"></span> 6.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Think New...
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#">
+          <video autoplay muted loop width="100%">
+            <source src="assets/33.mp4">
+          </video>
+        </a>
+        <div>
+          <img src="assets/s33.webp" style="border-radius: 20px;"> <span class="span">Squarespace</span>
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 320
+              <span class="glyphicon glyphicon-eye-open"></span> 6k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Smart Square..
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 12 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} -->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/34.webp" width="100%"></a>
+        <div>
+          <img src="assets/s34.webp" style="border-radius: 20px;"> <span class="span">Pie</span>
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 540
+              <span class="glyphicon glyphicon-eye-open"></span> 9.1k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Make a Chart..
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/35.webp" width="100%"></a>
+        <div>
+          <img src="assets/s35.webp" style="border-radius: 20px;"> <span class="span"> Bussiness </span>
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 800
+              <span class="glyphicon glyphicon-eye-open"></span> 2.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Grow Your Bussi..
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/36.webp" width="100%"></a>
+        <div>
+          <img src="assets/s36.webp" style="border-radius: 20px;"> <span class="span">Games Mode </span>
+          <button class="btn2" type="button">PRO</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 30
+              <span class="glyphicon glyphicon-eye-open"></span> 1k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Ranked Practice.
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
+    </div>
+
+  
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 13 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} -->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/37.webp" width="100%"></a>
+        <div>
+          <img src="assets/s37.webp" style="border-radius: 20px;"> <span class="span">Create Workflow </span>
+          <button class="btn2" type="button">PRO</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 530
+              <span class="glyphicon glyphicon-eye-open"></span> 6.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">The Fastest Way to
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/38.webp" width="100%"></a>
+        <div>
+          <img src="assets/s38.webp" style="border-radius: 20px;"> <span class="span">Linefade</span>
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 303
+              <span class="glyphicon glyphicon-eye-open"></span> 3.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">New Linefade
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="gallary col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/39.webp" width="100%"></a>
+        <div>
+          <img src="assets/s39.webp" style="border-radius: 20px;"> <span class="span">DKNG</span> 
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 303
+              <span class="glyphicon glyphicon-eye-open"></span> 2.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">About DKNG
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 14 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} -->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/40.webp" width="100%"></a>
+        <div>
+          <img src="assets/s40.webp" style="border-radius: 20px;"> <span class="span">tt Transaction</span> 
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 530
+              <span class="glyphicon glyphicon-eye-open"></span> 1.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Make Transactions
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/41.webp" width="100%"></a>
+        <div>
+          <img src="assets/s41.webp" style="border-radius: 20px;"> <span class="span">Art of Things </span>
+          <button class="btn2" type="button">PRO</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 900
+              <span class="glyphicon glyphicon-eye-open"></span> 3.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Art is Part of life.
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="gallary col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/42.webp" width="100%"></a>
+        <div>
+          <img src="assets/s42.webp" style="border-radius: 20px;"> <span class="span"> Nature </span>
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 313
+              <span class="glyphicon glyphicon-eye-open"></span> 7.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">It's Better know
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+
+  
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 15 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} -->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#">
+          <video autoplay muted loop width="100%">
+            <source src="assets/43.mp4">
+          </video>
+        </a>
+        <div>
+          <img src="assets/s43.webp" style="border-radius: 20px;"> <span class="span">Volley</span> 
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 50
+              <span class="glyphicon glyphicon-eye-open"></span> 1k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">HODLVERSE
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/44.webp" width="100%"></a>
+        <div>
+          <img src="assets/s44.webp" style="border-radius: 20px;"> <span class="span">Ace</span> 
+          <button class="btn2" type="button">PRO</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 300
+              <span class="glyphicon glyphicon-eye-open"></span> 1.2k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Days of Ace...
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="gallary col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/45.webp" width="100%"></a>
+        <div>
+          <img src="assets/s45.webp" style="border-radius: 20px;"> <span class="span">Plainthings</span> 
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 303
+              <span class="glyphicon glyphicon-eye-open"></span> 2.7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">EID MUBARAK.....
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+
+
+  
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 16 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} -->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/46.webp" width="100%"></a>
+        <div>
+          <img src="assets/s46.webp" style="border-radius: 20px;"> <span class="span">Heavy Rain</span> 
+          <button class="btn2" type="button">PRO</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 510
+              <span class="glyphicon glyphicon-eye-open"></span> 1.1k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Rains Are Best
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/47.webp" width="100%"></a>
+        <div>
+          <img src="assets/s47.webp" style="border-radius: 20px;"> <span class="span">Bussiness</span> 
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 800
+              <span class="glyphicon glyphicon-eye-open"></span> 1k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Costomer Experience
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="gallary col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#"><img src="assets/48.webp" width="100%"></a>
+        <div>
+          <img src="assets/s48.webp" style="border-radius: 20px;"> <span class="span">Greeks Art </span>
+          <button class="btn2" type="button">TEAM</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 342
+              <span class="glyphicon glyphicon-eye-open"></span> 7k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">The Greek Art
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+
+
+  
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ 17 th row }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} -->
+    <div class="row" style="margin-top: 30px;">
+      <div class="gallary col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+        <a href="#">
+          <video autoplay muted loop width="100%">
+            <source src="assets/49.mp4">
+          </video>
+        </a>
+        <div>
+          <img src="assets/s49.webp" style="border-radius: 20px;"> <span class="span">Emote Agency </span>
+          <button class="btn2" type="button">PRO</button>
+          <div class="socialicon">
+            <a href="#">
+              <span class="glyphicon glyphicon-heart"></span> 100
+              <span class="glyphicon glyphicon-eye-open"></span> 2.3k
+            </a>
+          </div>
+
+          <div class="middle">
+            <div class="text">Welcome Buffer A.
+              <img src="assets/files img.webp" height="28px" style="border-radius: 10px;">
+              <img src="assets/heart img.jpg" height="30px" style="border-radius: 10px;">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"></div>
+
+
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12"></div>
+      
+    </div>
+
+
+  </div>
+
+
+  <!-- {{{{{{{{{{{{{{{{{{sign up button}}}}}}}}}}}}}}}}}}}}}}}}} -->
+  <div class="container-mt" style="margin-top: 50px; margin-bottom: 50px;">
+    <div class="row">
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12"></div>
+
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+        <button class="btn3 btn-primary" type="button">Sign-up to continue</button>
+      </div>
+      
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12"style="color: #EA4C89; cursor: pointer;"> or Sign in</div>
+
+      <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12"></div>
+
+    </div>
+  </div>
+
+  <!-- {{{{{{{{{{{{{{{{{{{{{{{{{{{ fixed arrow }}}}}}}}}}}}}}}}}}}}}}}-->
+  <div class="container-mt">
+    <a href="#" class="fixed-bottom">
+      <img src="assets/fixed img.png" style="height: 50px; float: right;">
+    </a>
+  </div>
+
+  <!--{{{{{{{{{{{{{{{{{{{{{{{{{ fixed footer }}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+  <div class="footer" style="background-color: #fff; padding-top: 50px; padding-bottom: 30px; border: 20px solid #fff;">
+    <div class="row">
+      <div class="col-lg-2 col-md-12 col-sm-12 col-12">
+        <a href="#">
+          <img src="assets/pink logo 1.png" style="height: 100px; margin-top: -40px;">
+        </a>
+
+        <p>Dribbble is the world’s <br>leading community for <br>creatives to share, grow,<br> and get hired.</p>
+        <a href="#" class="fa fa-dribbble"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+      </div>
+
+      <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+        <p style="padding-left: 30px;"><b>For designers</b></p>
+        <ul style="list-style: none; color: rgb(50, 47, 47); cursor: pointer; line-height: 35px;">
+          <li>Go Pro !</li>
+          <li>Explore design work</li>
+          <li>Design blog</li>
+          <li>Overtime podcast</li>
+          <li>Playoffs</li>
+          <li>Code of conduct</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+        <p style="padding-left: 30px;"><b>Hire designers</b></p>
+        <ul style="list-style: none; color: rgb(50, 47, 47); cursor: pointer; line-height: 35px;">
+        <li>Post a job opening</li>
+        <li>Post a freelance Project</li>
+        <li>Search for designers</li>
+      </ul>
+
+      <p style="padding-left: 30px;"><b>Brands</b></p>
+      <ul style="list-style: none; color: rgb(50, 47, 47); cursor: pointer; line-height: 35px;">
+        <li>Advertise with us</li>
+      </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+        <p style="padding-left: 30px;"><b>Company</b></p>
+      <ul style="list-style: none; color: rgb(50, 47, 47); cursor: pointer; line-height: 35px;">
+        <li>About</li>
+        <li>Carrers</li>
+        <li>Support</li>
+        <li>Media kit</li>
+        <li>Testimonials</li>
+        <li>API</li>
+        <li>Terms of survices</li>
+        <li>Privacy Policy</li>
+        <li>Cookie Policy</li>
+      </ul>
+      </div>
+
+
+      <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+        <p style="padding-left: 30px;"><b>Directories</b></p>
+      <ul style="list-style: none; color: rgb(50, 47, 47); cursor: pointer; line-height: 35px;">
+        <li>Design jobs</li>
+        <li>Designers for hire</li>
+        <li>Freelance designers for hire</li>
+        <li>Tags</li>
+        <li>Places</li>
+      </ul>
+
+      <p style="padding-left: 30px;"><b>Design Assets</b></p>
+      <ul style="list-style: none; color: rgb(50, 47, 47); cursor: pointer; line-height: 35px;">
+        <li>dribble Marketplace</li>
+        <li>Creative Marketplace</li>
+        <li>Fontspring</li>
+        <li>Font Squirrel</li>
+      </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-6 col-sm-6 col-6">
+        <p style="padding-left: 30px;"><b>Design Resources</b></p>
+        <ul style="list-style: none; color: rgb(50, 47, 47); cursor: pointer; line-height: 35px;">
+          <li>Freelancing</li>
+          <li>Design Hiring</li>
+          <li>Design Portfolio</li>
+          <li>Design Education</li>
+          <li>Creative Process</li>
+          <li>Design Industry Trends</li>
+        </ul>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <!--{{{{{{{{{{{{{{{{{{{{{{{{{{{ copyright }}}}}}}}}}}}}}}}}}}}}}}}}}}}-->
+    <div class="row">
+      <div class="col-xl-1 col-lg-1"></div>
+
+      <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+        <p style="color: #6e6d7a; font-size: 14px;">© 2023 Dribbble. All rights reserved.</p>
+      </div>
+
+      <div class="col-xl-4 col-lg-4"></div>
+
+      <div class="col-xl-1 col-lg-1">
+        <p><b>21,288,012</b></p>
+      </div>
+
+      <div class="col-xl-2 col-lg-2">
+        <p style="color: #6e6d7a;">shots dribbbled</p>
+      </div>
+
+      <div class="col-xl-1 col-lg-1">
+        <img src="assets/last logo.svg" height="24px">
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+</html>
